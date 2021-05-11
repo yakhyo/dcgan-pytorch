@@ -1,0 +1,18 @@
+dataset : 'mnist'                       # cifar10 | lsun | mnist |imagenet | folder | lfw | fake
+dataroot : './data'                     # path to dataset
+workers : 0                             # number of data loading workers
+batch_size : 64                         # input batch size
+image_size : 64                          # the height / width of the input image to network
+nz : 100                                # size of the latent z vector
+ngf : 64
+ndf : 64
+epochs : 25                             # number of epochs to train for
+lr : 0.0002                             # learning rate, default=0.0002
+beta1 : 0.5                             # beta1 for adam
+dry_run : False                         # check a single training cycle works
+ngpu : 1                                # number of GPUs to use
+netG : ''                               # path to netG (to continue training)
+netD : ''                               # path to netD (to continue training)
+outputs : './assets'                   # folder to output images and model checkpoints
+manualSeed : 42                         # manual seed
+classes : ['bedroom']                   # comma separated list of classes for the lsun data set
