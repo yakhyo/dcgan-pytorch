@@ -1,6 +1,5 @@
 ## Deep Convolution Generative Adversarial Networks
 
-<hr>
 
 [Paper](https://arxiv.org/abs/1511.06434) | Official [Implementation](https://github.com/pytorch/examples/tree/master/dcgan)
 
