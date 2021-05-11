@@ -10,7 +10,7 @@
 
 <br>
 
-**Result:**
+**Results after 3 epochs:**
 
 ![](assets/img.png)
 
