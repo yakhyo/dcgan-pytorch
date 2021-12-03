@@ -1,4 +1,4 @@
-## Deep Convolution Generative Adversarial Networks
+## Deep Convolutional Generative Adversarial Networks
 
 
 Implementation of **Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks** using PyTorch | [Paper](https://arxiv.org/abs/1511.06434)
